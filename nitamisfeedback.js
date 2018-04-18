@@ -1,4 +1,10 @@
 /* Author: Ashish Patel
  * NITA MIS Feedback auto submission
+ * ContentPlaceHolder1_lvCourse_rblCourse_0_4_0
+ * ContentPlaceHolder1_lvTeacher_rblTeacher_0_4_0
+ * ContentPlaceHolder1_btnSubmit
  */
-$(document).ready(function() { for (var i = 0; i < 11; i++) { $('#ctl00_ContentPlaceHolder1_lvCourse_ctrl'+i+'_rblCourse_4').attr('checked', true); $('#ctl00_ContentPlaceHolder1_lvTeacher_ctrl'+i+'_rblTeacher_4').attr('checked', true); } $('#ctl00_ContentPlaceHolder1_btnSubmit').click(); });
+$(document).ready(function() { for (var i = 0; i < 11; i++) { 
+  $('#ContentPlaceHolder1_lvCourse_rblCourse_'+i+'_4_'+i+'').attr('checked', true); 
+  $('#ContentPlaceHolder1_lvTeacher_rblTeacher_'+i+'_4_'+i+'').attr('checked', true); 
+} $('#ContentPlaceHolder1_btnSubmit').click(); });
